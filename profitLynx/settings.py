@@ -13,7 +13,7 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = os.environ.get(
     'ALLOWED_HOSTS',
-    'profitlynxx.onrender.com,www.aspenoptions.org,127.0.0.1,localhost'
+    '127.0.0.1,localhost,ethicalfinance.onrender.com'
 ).split(',')
 
 AUTH_USER_MODEL = 'invest.User'
